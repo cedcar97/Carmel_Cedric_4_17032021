@@ -1,0 +1,19 @@
+{
+  "name": "starting-website",
+  "version": "1.0.0",
+  "description": "Optimisation La Chouette",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedcar97/La_Chouette.git"
+  },
+  "author": "cedcar97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedcar97/La_Chouette/issues"
+  },
+  "homepage": "https://github.com/cedcar97/La_Chouette#readme"
+}

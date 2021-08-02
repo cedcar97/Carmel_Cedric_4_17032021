@@ -865,21 +865,23 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-    width: 100%;
+    height: 100%;
 }
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-    width: 100%;
+    height: 100%;
 }
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    height: 400px;
     width: 100%;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
+    height: 700px;
     width: 100%;
 }
 

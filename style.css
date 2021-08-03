@@ -56,14 +56,31 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+
+#form_1{
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+
+}
 .form-group{
 display: flex;
+width: 100%;
 max-width: 500px;
 flex-flow: column wrap;
 margin-bottom: 10px;
 
+}
+.col-sm-6{
+  
+ width: 100%;  
+ text-align: center;
 
+}
 
+.bloc-button{
+max-width: 500px;
+width: 100%;
 }
 .bg-center,
 .bg-l-edge,

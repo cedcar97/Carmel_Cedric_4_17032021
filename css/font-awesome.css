@@ -532,11 +532,16 @@
 }
 
 .fa-chevron-left:before {
-    content: "\f053"
+    content: "\f053";
+    opacity: 0.7;
+    color:#FFFFFF;
+    
 }
 
 .fa-chevron-right:before {
-    content: "\f054"
+    content: "\f054";
+    opacity: 0.7;
+    color:#fff;
 }
 
 .fa-plus-circle:before {

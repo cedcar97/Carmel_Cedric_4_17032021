@@ -1438,8 +1438,9 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
+
 
 .img-rounded {
     border-radius: 6px
@@ -5214,7 +5215,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-toggle {
-    position: relative;
+    position: absolute;
+    right: 0px;
     float: right;
     padding: 9px 10px;
     margin-top: 8px;
@@ -7106,12 +7108,17 @@ button.close {
 }
 
 .modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: auto;
     margin: 10px
 }
 
 .modal-content {
+    max-height: 450px;
+    max-width: 450px;
     position: relative;
     background-color: #fff;
     -webkit-background-clip: padding-box;
@@ -7160,8 +7167,10 @@ button.close {
 }
 
 .modal-body {
+    max-width: 460px;
     position: relative;
-    padding: 15px
+    padding: 15px;
+    
 }
 
 .modal-footer {

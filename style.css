@@ -79,6 +79,12 @@ margin-bottom: 10px;
 
 }
 
+.citation{
+   text-align: center;
+   font-size: x-large;
+  font-weight: bold;
+}
+
 .bloc-button{
 max-width: 500px;
 width: 100%;
@@ -555,6 +561,7 @@ button {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
+
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
@@ -640,9 +647,10 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: 320px;
     margin: 0 auto;
 }
+
 
 .lightbox-caption {
     padding: 20px;
@@ -651,7 +659,8 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: 0px;
+    
 }
 
 .close-lightbox {
@@ -698,7 +707,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 70px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -809,11 +818,24 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    transform: scale(100%);
+    height: auto;
+
+}
+.portfolio-thumb:hover{
+    transform: scale(120%);
+    transition: 0.5s ease-in-out;
+
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+.content-img{
+    
+    overflow: hidden;
 }
 
 .avatar {
